@@ -1,0 +1,77 @@
+<header class="header">
+  <div class="header-innner">
+    <div class="header-logo">
+      <%= link_to "FUTSAL⚽️KOMAKI", root_path,data: {"turbolinks" => false} %>
+    </div>
+
+    <div class="header-contact">
+      <nav>
+        <ul>
+          <li><%= link_to "トップ", root_path %></li>
+          <li><%= link_to "施設について", guide_index_path, data: {"turbolinks" => false} %></li>
+          <li><%= link_to "お問い合わせ", root_path, data: {"turbolinks" => false} %></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="main-contents">
+  <div class="main-container">
+    <h1>小牧FUTSAlで人生にプラスαを！</h1>
+    <p>小牧フットサルが人生にプラスαを作る３つの理由</p>
+    <div class="mainbtn">
+      <a href="#">
+      <button type="button" class="reason-btn">３つの理由を click!</button>
+      </a>
+    </div>
+
+  </div>
+  
+</div>
+
+<div class="main-topic">
+    
+   <h3>menu</h3>
+
+   <div class="main-innner">   
+      <div class="main-topic-left">
+        <a href="#">
+          <div class="main-kojin">
+            <%= image_tag 'kojin.jpg', size: '300x300'%>
+            <p>個人参加menu</p>
+          </div>
+        </a>  
+        <a href="#">
+          <div class="main-taikai">
+            <%= image_tag 'main3.jpg', size: '300x300'%>
+            <p>大会menu</p>
+          </div>
+        </a>  
+      </div>
+ 
+
+
+
+      <div class="main-topic-right">
+        <a href="#">
+          <div class="main-school">
+              <%= image_tag 'main2.jpg', size: '300x300'%>
+              <p>スクールmenu</p>
+            </div>
+        </a>  
+
+        <a href="#">
+            <div class="main-rental">
+              <%= image_tag 'rental.jpg', size: '300x300'%>
+              <p>レンタルコートmenu</p>
+            </div>
+
+        </a>  
+        </div>
+      </div> 
+
+  </div>  
+<div>
+<%= render partial: "layouts/footer" %>
+</div>

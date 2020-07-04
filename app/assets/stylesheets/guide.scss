@@ -1,0 +1,171 @@
+.guide-header {
+  text-align: center;
+  background-color: #ffffff;
+  width: 100%;
+  border: solid 2px #00FF00;
+}
+
+
+.guide-logo a {
+  text-decoration: none;
+  color: #00FF00;
+  font-size: 30px;
+}
+
+.guide-comement {
+  font-size: 20px;
+}
+
+@media (min-width: 670px) {
+  .guide-header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .guide-logo a {
+    font-size: 30px;
+    padding-left: 20px;
+  }
+
+  .guide-comement {
+    font-size: 20px;
+    padding-right: 20px;
+  }
+
+}
+
+
+
+
+
+
+
+.guide-contents {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.guide-exp table{
+  margin: auto;
+}
+
+.guide-pic img{
+  width: 100%;
+}
+
+
+
+.guide-exp th {
+  padding: 10px;
+}
+
+.guide-exp tr {
+  border-bottom: solid 1px gray;
+}
+
+.guide-exp td {
+ padding: 10px;
+}
+
+@media (min-width: 670px) {
+  .guide-main {
+    display: flex;
+    height: 400px;
+  }
+  .guide-main {
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+  }
+  .guide-pic img {
+    width: 100%;
+    height: 400px;
+  }
+  .guide-exp table{
+    width: 100%;
+    height: 400px;
+  }
+  
+}
+
+
+
+
+
+.faq-wrapper {
+  background-color: #fff;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: black;
+}
+
+.heading {
+  color: #33FF66;
+  font-size: 30px;
+}
+
+#faq-list {
+  width: 100%;
+  // margin: 0 auto;
+  // padding: 0;
+  list-style: none;
+}
+
+.question {
+text-align: center;
+}
+
+/*アコーディオン追加 */
+.faq-list-item {
+  margin:10px;
+  border-bottom:1px solid #33FF66;
+  position:relative;
+  cursor:pointer;
+  text-align: left;
+}
+
+.faq-list-item h3 {
+  font-size: 15px;
+}
+
+.faq-list-item span {
+  position:absolute;
+  top:0;
+  right:5px;
+  color: black;
+  font-size:13px;
+}
+
+.answer {
+  font-size: 12px;
+  display: none;
+  padding: 5px 0px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.answer p {
+  color: black;
+  font-size: 15px;
+}
+
+@media (min-width: 670px) {
+  .faq-wrapper {
+    text-align: left;
+    padding-left: 20px;
+  }
+  .question {
+    text-align: left;
+    padding-left: 20px;
+  }
+  .answer {
+    text-align: left;
+    padding: 20px;
+  }
+}

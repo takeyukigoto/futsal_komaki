@@ -1,0 +1,42 @@
+.footer {
+  text-align: center;
+  border-top: solid 2px #33FF66;
+  border-bottom: solid 2px #33ff66;
+}
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-right a {
+  padding-right: 30px;
+}
+
+.footer-right li {
+  display: inline-block;
+}
+
+
+@media (min-width: 670px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  .footer-innner {
+    padding-left: 20px;
+  }
+  .footer-contact {
+    padding-right: 20px;
+  }
+  .footer-contact li {
+    display: inline-block;
+    padding-top: 15px;
+  }
+  .footer-contact a {
+    padding-right: 10px;
+  }
+
+}
