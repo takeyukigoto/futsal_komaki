@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  root to: 'contact#index'
+  root to: 'top#index'
+
+  resources :guide, only: :index
 
   resources :guide, only: :index
 end
