@@ -1,0 +1,133 @@
+<header class="header">
+  <div class="header-innner">
+    <div class="header-logo">
+      <%= link_to "３つの理由", root_path, data: {"turbolinks" => false} %>
+    </div>
+
+    <div class="header-contact">
+      <nav>
+        <ul>
+          <li><%= link_to "トップ", root_path, data: {"turbolinks" => false} %></li>
+          <li><%= link_to "施設について", guide_index_path, data: {"turbolinks" => false} %></li>
+          <li><%= link_to "お問い合わせ", root_path, data: {"turbolinks" => false} %></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+
+<div class="r-main">
+
+  <div class="r-contents">
+   <div class="r-kojin">
+    <h2>1.個人参加でプラスα！</h2>
+    <span>個人参加とは</span><br>
+    <p>１人でも試合に参加できるイベントです.<br>
+    １人もしくは友人を御誘いの上、参加申込をして頂きます。</br>
+    9割り以上の方が１人で参加していただいております。施設がチーム分けなど運営をさせて頂きますので、どなたも安心して参加していただけます。<br>
+    </p>
+    <br>
+    <span>友人を作ろう</span><br>
+    <p>社会人になってから、仕事関係の友人しかいない、人脈、仕事と関係ない友人が欲しいという方も多いのではないでしょうか？<br>
+    １名で参加される方が多く、フットサルを通じてコミュニケーションをとる為、友人ができやすい環境にあります。<br>
+    ここで知り合った人同士、フットサル以外のお付き合いをしている常連さんが多数います。<br>
+   </div>
+
+  <div class="r-taikai">
+    <h2>２.大会参加でプラスα！</h2>
+    <span>大会とは</span><br>
+    <p>チームで大会に参加して頂くイベントです.<br>
+    昔からのサッカーチームで参加、施設で知り合った人を誘っての参加、５名以上のチームであれば参加できます。<br>
+    初心者チーム〜上級者チームまで各レベルに合わせた大会を用意させて頂いております。
+    <br>
+    </p>
+    <br>
+    <br>
+    <span>学生の頃の青春を味わおう</span><br>
+    <p>社会人になってからスポーツで、チーム皆での一体感、勝利をした、そんな体験がなくなってきてはいませんか？<br>
+    レベルに合わせた大会に参加し、チームでの一体感、勝利、学生の頃のあの青春を味わいましょう。<br>
+   </div>
+
+  <div class="r-school">
+    <h2>３.スクール参加でプラスα！</h2>
+    <span>スクールとは</span><br>
+    <p>個人のニーズに合わせたイベントです.<br>
+    子供向けフットサル技術向上を目的としたもの<br>
+    大人向け、運動不足解消を目的としたものがあります。<br>
+    <br>
+    <br>
+    <span>運動不足を解消</span><br>
+    <p>社会人になってから運動したいけど、できていない方にオススメです。ボールを扱っての運動になり、フットサル経験者出なくても、運動が楽しめます。<br>
+    その他、各個人に合わせたイベントがありますので、あなたに合ったイベントで楽しんでください。<br>
+  </div>
+
+
+
+  
+
+  <div class="taiken">
+    <div class="taiken-contents">
+      <h3>無料相談会&体験会</h3>
+      <p>フットサル小牧では無料で無料相談会、体験会を行っています。<br>
+      無料相談&体験会のお申し込みはこちらから</P>
+      <div class="taiken-btn">
+      <a>
+      <button type="button" class="mousikomi-btn" id="mousikomi-modal">申込 click!</button>
+      </a>
+    </div>
+
+
+
+    </div>
+  
+
+  <div class="login-modal-wrapper" id="login-modal">
+    <!-- ログインのモーダル部分のHTMLを貼り付けてください -->
+    <div class="modal">
+      <div id="login-form">
+        <h2>無料相談&体験会申込</h2>
+        <form action="#">
+
+          <div class="modal-form">
+            <label>お名前：必須</label>
+            <input class="form-control" type="text" placeholder="入力してください">
+          </div>
+        
+         <div class="modal-form">
+            <label>メールアドレス：必須</label>
+            <input class="form-control" type="email" placeholder="入力してください">
+          </div>
+
+          <div class="modal-form">
+            <label>希望日：必須</label>
+            <input class="form-control" type="text" placeholder="入力してください">
+          </div>
+
+          <div class="modal-form">
+            <label>希望時間：必須</label>
+            <input class="form-control" type="text" placeholder="入力してください">
+          </div>
+
+      </div>
+
+        </form>
+        　<div class="modal-sousin">
+      　　 <button type="button" class="modal-btn" id="modal-btn">送信</button>
+      　　</div>
+        <div class="close-modal">
+        <i class="fa fa-2x fa-times"></i>
+       </div>
+            
+      </div>
+
+      
+
+
+</div>
+      
+    </div>
+    
+</div>
+
+</div>

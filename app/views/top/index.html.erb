@@ -21,9 +21,9 @@
     <h1>小牧FUTSAlで人生にプラスαを！</h1>
     <p>小牧フットサルが人生にプラスαを作る３つの理由</p>
     <div class="mainbtn">
-      <a href="#">
-      <button type="button" class="reason-btn">３つの理由を click!</button>
-      </a>
+    
+      <%=link_to "３つの理由を click!", reason_index_path, data: {"turbolinks" => false}, class:'reason-btn' %>
+      
     </div>
 
   </div>
