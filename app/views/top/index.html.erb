@@ -7,7 +7,7 @@
     <div class="header-contact">
       <nav>
         <ul>
-          <li><%= link_to "トップ", root_path %></li>
+          <li><%= link_to "トップ", root_path, data: {"turbolinks" => false} %></li>
           <li><%= link_to "施設について", guide_index_path, data: {"turbolinks" => false} %></li>
           <li><%= link_to "お問い合わせ", root_path, data: {"turbolinks" => false} %></li>
         </ul>
@@ -36,12 +36,16 @@
 
    <div class="main-innner">   
       <div class="main-topic-left">
-        <a href="#">
-          <div class="main-kojin">
-            <%= image_tag 'kojin.jpg', size: '300x300'%>
-            <p>個人参加menu</p>
-          </div>
-        </a>  
+
+      
+          
+        <%= link_to(kojin_index_path) do %>
+              <div class="main-kojin">
+                <%= image_tag 'kojin.jpg' , size: '300x300' %>
+                <P>個人参加</p>
+              </div>
+        <% end %>
+          
         <a href="#">
           <div class="main-taikai">
             <%= image_tag 'main3.jpg', size: '300x300'%>
@@ -72,6 +76,9 @@
       </div> 
 
   </div>  
+
+
 <div>
+
 <%= render partial: "layouts/footer" %>
 </div>

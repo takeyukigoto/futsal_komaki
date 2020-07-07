@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  root to: 'kojin#index'
+  root to: 'top#index'
 
-  resources :top, only: :index
+  resources :kojin, only: :index
 
   resources :guide, only: :index
 
