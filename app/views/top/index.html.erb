@@ -36,12 +36,15 @@
 
    <div class="main-innner">   
       <div class="main-topic-left">
-        <a href="#">
+
+      
           <div class="main-kojin">
-            <%= image_tag 'kojin.jpg', size: '300x300'%>
-            <p>個人参加menu</p>
+
+        
+            <%=link_to image_tag('kojin.jpg'), kojin_index_path, size: '300x300' %>
+            
           </div>
-        </a>  
+          
         <a href="#">
           <div class="main-taikai">
             <%= image_tag 'main3.jpg', size: '300x300'%>
