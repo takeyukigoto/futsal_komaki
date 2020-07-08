@@ -1,0 +1,2 @@
+module TaikaiHelper
+end
