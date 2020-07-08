@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   resources :guide, only: :index
 
   resources :reason, only: :index
+
+  resources :taikai, only: :index
 end
