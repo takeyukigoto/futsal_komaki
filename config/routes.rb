@@ -8,4 +8,8 @@ Rails.application.routes.draw do
   resources :reason, only: :index
 
   resources :taikai, only: :index
+
+  resources :school, only: :index
+
+  resources :rental, only: :index
 end

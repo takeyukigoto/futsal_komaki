@@ -1,0 +1,90 @@
+<header class="header">
+  <div class="header-innner">
+    <div class="header-logo">
+      <%= link_to "school参加", root_path %>
+    </div>
+
+    <div class="header-contact">
+      <nav>
+        <ul>
+          <li><%= link_to "トップ", root_path %></li>
+          <li><%= link_to "施設について", guide_index_path %></li>
+          <li><%= link_to "お問い合わせ", root_path %></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="s-main">
+ <div class="s-contents">
+   <span>スクールとは</span><br>
+    <p>個人のニーズに合わせたイベントです.<br>
+    子供向けフットサル技術向上を目的としたもの<br>
+    大人向け、運動不足解消を目的としたものがあります。</p><br>
+    <br>
+    <br>
+    <span>運動不足を解消</span><br>
+    <p>社会人になってから運動したいけど、できていない方にオススメです。ボールを扱っての運動になり、フットサル経験者出なくても、運動が楽しめます。<br>
+    その他、各個人に合わせたイベントがありますので、あなたに合ったイベントで楽しんでください。<br>
+ </div>
+<div class="s-mousikomi">
+  <div class="s-mousikomiform">
+    <p>school申込</p>
+    <div class="schoolmousikomi">
+      <a>
+      <button type="button" class="schoolmousikomi-btn" id="schoolmousikomi-modal">申込 click!</button>
+      </a>
+  </div>
+  </div>
+
+
+  <div class="school-modal-wrapper" id="school-modal">
+    <!-- ログインのモーダル部分のHTMLを貼り付けてください -->
+    <div class="school-modal">
+      <div id="school-login-form">
+        <h2>school申込</h2>
+        <form action="#">
+
+          <div class="school-modal-form">
+            <label>お名前：必須</label>
+            <input class="school-form-control" type="text" placeholder="入力してください">
+          </div>
+        
+         <div class="school-modal-form">
+            <label>メールアドレス：必須</label>
+            <input class="school-form-control" type="email" placeholder="入力してください">
+          </div>
+
+          <div class="school-modal-form">
+            <label>希望日：必須</label>
+            <input class="school-form-control" type="text" placeholder="入力してください">
+          </div>
+
+          <div class="school-modal-form">
+            <label>希望時間：必須</label>
+            <input class="school-form-control" type="text" placeholder="入力してください">
+          </div>
+
+      </div>
+
+        </form>
+         <div class="school-modal-sousin">
+          <button type="button" class="school-modal-btn" id="school-modal-btn">送信</button>
+         </div>
+        <div class="school-close-modal">
+        <i class="fa fa-2x fa-times"></i>
+       </div>
+            
+      </div>
+
+  </div>    
+</div>
+</div>
+<div>
+
+<%= render partial: "layouts/footer" %>
+</div>
+
+
+</div>
