@@ -57,20 +57,20 @@
 
 
       <div class="main-topic-right">
-        <a href="#">
+        <%= link_to(school_index_path) do %>
           <div class="main-school">
               <%= image_tag 'main2.jpg', size: '300x300'%>
               <p>スクールmenu</p>
             </div>
-        </a>  
+        <% end %>
 
-        <a href="#">
+        <%= link_to(rental_index_path) do %>
             <div class="main-rental">
               <%= image_tag 'rental.jpg', size: '300x300'%>
               <p>レンタルコートmenu</p>
             </div>
-
-        </a>  
+         <% end %>
+          
         </div>
       </div> 
 
