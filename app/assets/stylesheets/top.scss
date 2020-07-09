@@ -32,6 +32,7 @@ body {
   font-size: 40px;
   color: green;
   text-decoration: none;
+  font-family: "Comic Sans MS";
 }
 
 .header-logo a:hover {
@@ -41,11 +42,13 @@ body {
 
 .header-contact {
   padding-top: 10px;
+  
 }
 
 .header-contact li {
 display: inline-block;
 margin-right: 10px;
+font-family: "Comic Sans MS";
 }
 
 .header-contact li:hover{
@@ -110,14 +113,12 @@ margin-right: 10px;
  letter-spacing: 0.1em;
 }
 
-.mainbtn {
-  padding-bottom: 15px;
-}
+
 
 .reason-btn {
   position: relative;
   display: inline-block;
-  padding: 0.25em 0.5em;
+  padding: 0.8em 1.0em;
   text-decoration: none;
   color: #FFF;
   background: #fd9535;/*色*/
@@ -158,6 +159,7 @@ margin-right: 10px;
   text-align: center;
   color: green;
   font-size: 30px;
+  font-family: "Comic Sans MS";
 }
 
 
@@ -176,6 +178,7 @@ margin-right: 10px;
 .main-innner a {
   text-decoration: none;
   color: black;
+  font-family: "Comic Sans MS";
 }
 
 @media (min-width: 670px) {

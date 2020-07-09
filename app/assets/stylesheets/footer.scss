@@ -1,7 +1,7 @@
 .footer {
   text-align: center;
   border-top: solid 2px #33FF66;
-  
+  font-family: "Comic Sans MS";
 }
 .footer a {
   text-decoration: none;
@@ -14,6 +14,10 @@
 
 .footer-right li {
   display: inline-block;
+}
+
+.footer-contact li:hover {
+  opacity: 0.8;
 }
 
 
