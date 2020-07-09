@@ -1,0 +1,147 @@
+.contact-wrapper {
+  background-image: url(/assets/contact.jpg);
+  background-color:rgba(255,255,255,0.4);
+  background-blend-mode:lighten;
+  background-size:cover;
+  background-position: center center;                              /* 画像のサイズを指定  */
+  width:100%; 
+  text-align: center;
+  font-family: "Comic Sans MS";
+  letter-spacing: 0.2em;
+}
+
+.contact-form {
+  margin-top: 30px;
+  width: 200px;
+  height: 400px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.contact-login-form {
+  background-color: #ffffff;
+  width: auto;
+  height: auto;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.contact-text-form {
+  width: auto;
+  height: auto;
+}
+
+.contact-login-form p {
+  font-size: 20px;
+}
+
+.contact-form-control {
+  border-radius: 10px;
+}
+
+.contact-form-text {
+  border-radius: 10px;
+  height: 50px;
+}
+
+.contact-form-sub {
+  padding: 10px;
+  background-color: lime;
+  border-radius: 10px;
+}
+
+
+@media (min-width: 670px) {
+
+  .contact-form {
+    margin-top: 30px;
+    width: 500px;
+    height: 800px;
+    margin: auto;
+    padding-top: 30px;
+  }
+
+  .contact-form-control {
+    width: 400px;
+    height: 40px;
+  }
+
+  .contact-form-text {
+    width: 400px;
+    height: 100px;
+    border-radius: 10px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .school-modal-wrapper {
+//   position: fixed;
+//   top: 0;
+//   right: 0;
+//   bottom: 0;
+//   left: 0;
+//   background-color: rgba(0, 0, 0, 0.6);
+//   z-index: 100;
+//   display: none;
+//   width: auto;
+// }
+
+// .school-modal {
+//   position: absolute;
+//   top: 10%;
+//   left: 5%;
+//   background-color: #ffffff;
+//   padding: 20px 0 40px;
+//   border-radius: 10px;
+//   width: auto;
+//   height: auto;
+//   text-align: center;
+// }
+
+
+// .school-modal-form {
+//   padding: 20px;
+// }
+
+// label {
+//   display: block;
+// } 
+
+// .school-form-control {
+//   width: auto;
+//   height: 50px;
+//   border: solid 2px lime;
+// }
+
+// .school-modal-btn {
+//  color: lime;
+//  cursor: pointer;
+//  padding: 20px;
+//  border-radius: 10px;
+// }
+

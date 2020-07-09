@@ -7,7 +7,7 @@ $('.faq-list-item').click(function() {
     $answer.slideUp();
 
     // 子要素のspanタグの中身をtextメソッドを用いて書き換えてください
-    $(this).find('span').text('A');
+    $(this).find('span').text('ANSWER CLICK!');
     
   } else {
     $answer.addClass('open'); 

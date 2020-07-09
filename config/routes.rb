@@ -12,4 +12,6 @@ Rails.application.routes.draw do
   resources :school, only: :index
 
   resources :rental, only: :index
+
+  resources :contact, only: :index
 end

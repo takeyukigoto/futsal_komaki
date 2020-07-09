@@ -1,13 +1,20 @@
-<div class="guide-header">
+<header class="header">
+  <div class="header-innner">
+    <div class="header-logo">
+      <%= link_to "FUTSAL⚽️KOMAKI", root_path %>
+    </div>
 
-  <div class="guide-logo">
-   <%= link_to "FUTSAL⚽️KOMAKI", root_path %>
+    <div class="header-contact">
+      <nav>
+        <ul>
+          <li><%= link_to "トップ", root_path %></li>
+          <li><%= link_to "施設について", guide_index_path %></li>
+          <li><%= link_to "お問い合わせ", contact_index_path %></li>
+        </ul>
+      </nav>
+    </div>
   </div>
-  <div class="guide-comement">
-   <p>施設案内</P>
-  </div>
-
-</div>
+</header>
 
 
 <div class="guide-contents">
@@ -58,42 +65,42 @@
         <ul id="faq-list">
           <li class="faq-list-item">
             <h3 class="question">予約制ですか？当日参加は可能ですか？</h3>
-            <span>A</span>
+            <span>ANSWER CLICK!</span>
             <div class="answer">
               <p>当日参加可能です。ただし、各イベント人数制限がありますので、人数を超えている場合は予約優先となります。</p>
             </div>
           </li>
           <li class="faq-list-item">
             <h3 class="question">フットサル経験のない初心者ですが参加できますか？</h3>
-            <span>A</span>
+            <span>ANSWER CLICK!</span>
             <div class="answer">
               <p>もちろん参加可能です。社会人になってから始めた初心者の方も多数います。</p>
             </div>
           </li>
           <li class="faq-list-item">
             <h3 class="question">年齢制限はありますか？</h3>
-            <span>A</span>
+            <span>ANSWER CLICK!</span>
             <div class="answer">
               <p>中学生以上であればどなた様でも参加可能です。</p>
             </div>
           </li>
           <li class="faq-list-item">
             <h3 class="question">レンタル品、シューズなどのレンタルはありますか？</h3>
-            <span>A</span>
+            <span>ANSWER CLICK!</span>
             <div class="answer">
               <p>あります。シューズ一足200円、ボール１球、ビブス１着は無料です。</p>
             </div>
           </li>
           <li class="faq-list-item">
             <h3 class="question">雨天の場合は開催されますか？</h3>
-            <span>A</span>
+            <span>ANSWER CLICK!</span>
             <div class="answer">
               <p>室内の為、雨天でも問題なく開催されます。</p>
             </div>
           </li>
           <li class="faq-list-item">
             <h3 class="question">定休日はありますか？</h3>
-            <span>A</span>
+            <span>ANSWER CLICK!</span>
             <div class="answer">
               <p>１月１日〜１月３日は定休日です。それ以外は原則営業させて頂きます。</p>
             </div>
@@ -102,3 +109,8 @@
       </div>
     </div>
   </div>
+
+  <div>
+
+<%= render partial: "layouts/footer" %>
+</div>
