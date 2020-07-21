@@ -34,9 +34,105 @@
  
  
 
+ <div class="row"> 
+    <div class="col-sm-6">
+      <h1>お問い合わせフォーム</h1>
+    </div>
+
+      <div class="col-sm-6 align-right">
+        <a href="/">ホームへ戻る</a>
+      </div>
+    </div>  
+  </header>
+
+</div>
+  
 
 
-  <div class="k-mousikomi">
+
+  <hr class="hr">
+
+  <div class="container">
+   <form action="#" method="post" class="row">
+     <div class="col-sm-8 col-sm-offset-2">
+       <p>この度は本書をご利用頂きありがとうございます.恐れ入りますが以下のフォームにご記入頂き送信して頂けると助かります</p>
+
+
+      <div class="form-group">
+        <label for="name">お名前 <span class="label label-danger">必須</span></label>
+        <input type="text" id="name" name="name" class="form-control" placeholder="例 山田太郎"> 
+      </div>
+
+      <div class="form-group">
+        <label for="email">メールアドレス<span class="label label-danger">必須</span></label>
+        <input type="email" id="email" name="email" class="form-control" placeholder="例 山田太郎"> 
+      </div>
+
+      <div class="form-group">
+        <label for="job">ご職業</label>
+        <select id="job" name="job" class="form-control">
+          <option value="会社員">選択してください</option>
+          <option value="会社員">会社員</option>
+          <option value="会社員">主婦</option>
+          <option value="会社員">学生</option>
+          <option value="会社員">その他</option>
+        </select>  
+      </div>
+
+      <div class="form-group">
+        <label>知りたい内容（複数回答可）</label>
+        <div class="checkbox">
+          <label>
+            <input id="q1_kojin" type="checkbox" name="q1" value="kojin">個人参加
+          </label>
+        </div>
+
+        <div class="checkbox">
+          <label>
+            <input id="q1_taikai" type="checkbox" name="q1" value="taikai">大会参加
+          </label>
+        </div>
+
+        <div class="checkbox">
+          <label>
+            <input id="q3_school" type="checkbox" name="q1" value="q3_school">スクール
+          </label>
+        </div>
+
+        <div class="checkbox">
+          <label>
+            <input id="q4_rental" type="checkbox" name="q1" value="q4_rental">レンタルコート
+          </label>
+        </div>
+
+        <div class="checkbox">
+          <label>
+            <input id="q5_sonota" type="checkbox" name="q1" value="q5_sonota">その他
+          </label>
+        </div>
+
+      
+        <div class="form-group">
+          <label for="message">質問内容</label>
+          <textarea name="form-control" row="5" class="form-control"></textarea>
+        </div>
+        <button type="submit" class="btn btn-defalt">送信する</button>
+
+      </div>
+   </form>
+    
+
+
+  
+
+</div>
+
+ </div>
+ <hr class="hr">
+
+
+
+  <%# <div class="k-mousikomi">
   <div class="k-mousikomiform">
     <p>個人参加申込</p>
     <div class="kojinmousikomi">
@@ -89,7 +185,7 @@
   </div>    
 </div>
 </div>
-<div>
+<div> %>
 
 <%= render partial: "layouts/footer" %>
 </div>
