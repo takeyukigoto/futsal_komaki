@@ -14,4 +14,6 @@ Rails.application.routes.draw do
   resources :rental, only: :index
 
   resources :contact, only: :index
+
+  resources :mokojin, only: :index
 end
