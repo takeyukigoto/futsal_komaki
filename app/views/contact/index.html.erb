@@ -21,27 +21,27 @@
     <div class="contact-form">
       <div class="contact-login-form">
         <p>お問い合わせ<p>
-        <form action="#">
+         <%= form_tag('/thank', method: :get) do %> 
 
           <div class="contact-text-form">
-            <label>お名前：必須</label>
-            <input class="contact-form-control" type="text" placeholder="入力してください">
+            <label>お名前：<span>必須</span></label>
+            <input class="contact-form-control" type="text" placeholder="例：山田　太郎" required autofocus>
           </div>
         
          <div class="contact-text-form">
-            <label>メールアドレス：必須</label>
-            <input class="contact-form-control" type="email" placeholder="入力してください">
+            <label>メールアドレス：<span>必須</span></label>
+            <input class="contact-form-control" type="email" placeholder="例：aaaa@mail.gmai.com" required>
           </div>
 
           <div class="contact-text-form">
-            <label>ご質問内容：必須</label>
-            <input class="contact-form-text" type="text" placeholder="入力してください">
+            <label>ご質問内容：<span>必須</span></label>
+            <textarea class="contact-form-text" type="textarea" placeholder="質問内容を入力してください" required autofocus></textarea>
           </div>
 
-          <div class="school-modal-form">
+          <div class="contactbtn-form">
             <input class="contact-form-sub" type="submit">
           </div>
-
+        <% end %>
       </div>
 
 

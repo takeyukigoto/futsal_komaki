@@ -1,0 +1,39 @@
+.thank-main {
+  background-image: image-url("thank.jpg");
+  background-color:rgba(255,255,255,0.4);
+  background-blend-mode:lighten;
+  background-size:cover;
+  background-position: center center;                              /* 画像のサイズを指定  */
+  width:100%; 
+  text-align: center;
+  font-family: "Comic Sans MS";
+  letter-spacing: 0.2em;
+}
+
+.thank-comment h1 {
+  margin: 0px;
+  padding-top: 10px;
+  font-size: 30px;
+  color: #FF6699;
+}
+
+.thank-comment p {
+  font-size: 20px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+
+@media (min-width: 670px) {
+
+  .thank-comment h1 {
+    margin: 0px;
+    padding-top: 30px;
+    font-size: 60px;
+    color: #FF6699;
+  }
+  
+  .thank-comment p {
+    font-size: 30px;
+    padding-top: 30px;
+  }
+}

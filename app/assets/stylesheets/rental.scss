@@ -66,86 +66,86 @@ text-align: left;
 }
 
 
-.rental-modal-wrapper {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.6);
-  z-index: 100;
-  display: none;
-  width: auto;
-}
+// .rental-modal-wrapper {
+//   position: fixed;
+//   top: 0;
+//   right: 0;
+//   bottom: 0;
+//   left: 0;
+//   background-color: rgba(0, 0, 0, 0.6);
+//   z-index: 100;
+//   display: none;
+//   width: auto;
+// }
 
-.rental-modal {
-  position: absolute;
-  top: 10%;
-  left: 5%;
-  background-color: #ffffff;
-  padding: 20px 0 40px;
-  border-radius: 10px;
-  width: auto;
-  height: auto;
-  text-align: center;
-}
-
-
-.rental-modal-form {
-  padding: 20px;
-}
-
-label {
-  display: block;
-} 
-
-.rental-form-control {
-  width: auto;
-  height: 50px;
-  border: solid 2px lime;
-}
-
-.rental-modal-btn {
- color: lime;
- cursor: pointer;
- padding: 20px;
- border-radius: 10px;
-}
+// .rental-modal {
+//   position: absolute;
+//   top: 10%;
+//   left: 5%;
+//   background-color: #ffffff;
+//   padding: 20px 0 40px;
+//   border-radius: 10px;
+//   width: auto;
+//   height: auto;
+//   text-align: center;
+// }
 
 
-.fa-times {
-  color: black;
-  cursor: pointer;
-}
+// .rental-modal-form {
+//   padding: 20px;
+// }
 
-.rental-close-modal {
-  margin-top: 10px;
-}
+// label {
+//   display: block;
+// } 
 
-@media (min-width: 670px) {
+// .rental-form-control {
+//   width: auto;
+//   height: 50px;
+//   border: solid 2px lime;
+// }
 
-  .rental-modal {
-    position: absolute;
-    top: 10%;
-    left: 5%;
-    background-color: #ffffff;
-    padding: 20px 0 40px;
-    border-radius: 10px;
-    width: 1000px;
-    height: 1000px;
-    text-align: center;
-  }
+// .rental-modal-btn {
+//  color: lime;
+//  cursor: pointer;
+//  padding: 20px;
+//  border-radius: 10px;
+// }
+
+
+// .fa-times {
+//   color: black;
+//   cursor: pointer;
+// }
+
+// .rental-close-modal {
+//   margin-top: 10px;
+// }
+
+// @media (min-width: 670px) {
+
+//   .rental-modal {
+//     position: absolute;
+//     top: 10%;
+//     left: 5%;
+//     background-color: #ffffff;
+//     padding: 20px 0 40px;
+//     border-radius: 10px;
+//     width: 1000px;
+//     height: 1000px;
+//     text-align: center;
+//   }
   
-  .rental-form-control {
-    width: 400px;
-    height: 50px;
-    border: solid 2px lime;
-  }
+//   .rental-form-control {
+//     width: 400px;
+//     height: 50px;
+//     border: solid 2px lime;
+//   }
   
-  .rental-modal-btn {
-    color: lime;
-    cursor: pointer;
-    padding: 30px 50px;
+//   .rental-modal-btn {
+//     color: lime;
+//     cursor: pointer;
+//     padding: 30px 50px;
     
-   }
-  }
+//    }
+//   }

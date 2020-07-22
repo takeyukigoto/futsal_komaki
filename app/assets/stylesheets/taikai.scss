@@ -68,86 +68,86 @@
 }
 
 
-.taikai-modal-wrapper {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.6);
-  z-index: 100;
-  display: none;
-  width: auto;
-}
+// .taikai-modal-wrapper {
+//   position: fixed;
+//   top: 0;
+//   right: 0;
+//   bottom: 0;
+//   left: 0;
+//   background-color: rgba(0, 0, 0, 0.6);
+//   z-index: 100;
+//   display: none;
+//   width: auto;
+// }
 
-.taikai-modal {
-  position: absolute;
-  top: 10%;
-  left: 5%;
-  background-color: #ffffff;
-  padding: 20px 0 40px;
-  border-radius: 10px;
-  width: auto;
-  height: auto;
-  text-align: center;
-}
-
-
-.taikai-modal-form {
-  padding: 20px;
-}
-
-label {
-  display: block;
-} 
-
-.taikai-form-control {
-  width: auto;
-  height: 50px;
-  border: solid 2px lime;
-}
-
-.taikai-modal-btn {
- color: lime;
- cursor: pointer;
- padding: 20px;
- border-radius: 10px;
-}
+// .taikai-modal {
+//   position: absolute;
+//   top: 10%;
+//   left: 5%;
+//   background-color: #ffffff;
+//   padding: 20px 0 40px;
+//   border-radius: 10px;
+//   width: auto;
+//   height: auto;
+//   text-align: center;
+// }
 
 
-.fa-times {
-  color: black;
-  cursor: pointer;
-}
+// .taikai-modal-form {
+//   padding: 20px;
+// }
 
-.taikai-close-modal {
-  margin-top: 10px;
-}
+// // label {
+// //   display: block;
+// // } 
 
-@media (min-width: 670px) {
+// .taikai-form-control {
+//   width: auto;
+//   height: 50px;
+//   border: solid 2px lime;
+// }
 
-  .taikai-modal {
-    position: absolute;
-    top: 10%;
-    left: 5%;
-    background-color: #ffffff;
-    padding: 20px 0 40px;
-    border-radius: 10px;
-    width: 1000px;
-    height: 1000px;
-    text-align: center;
-  }
+// .taikai-modal-btn {
+//  color: lime;
+//  cursor: pointer;
+//  padding: 20px;
+//  border-radius: 10px;
+// }
+
+
+// .fa-times {
+//   color: black;
+//   cursor: pointer;
+// }
+
+// .taikai-close-modal {
+//   margin-top: 10px;
+// }
+
+// @media (min-width: 670px) {
+
+//   .taikai-modal {
+//     position: absolute;
+//     top: 10%;
+//     left: 5%;
+//     background-color: #ffffff;
+//     padding: 20px 0 40px;
+//     border-radius: 10px;
+//     width: 1000px;
+//     height: 1000px;
+//     text-align: center;
+//   }
   
-  .taikai-form-control {
-    width: 400px;
-    height: 50px;
-    border: solid 2px lime;
-  }
+//   .taikai-form-control {
+//     width: 400px;
+//     height: 50px;
+//     border: solid 2px lime;
+//   }
   
-  .taikai-modal-btn {
-    color: lime;
-    cursor: pointer;
-    padding: 30px 50px;
+//   .taikai-modal-btn {
+//     color: lime;
+//     cursor: pointer;
+//     padding: 30px 50px;
     
-   }
-  }
+//    }
+//   }

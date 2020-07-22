@@ -66,86 +66,86 @@ text-align: left;
 }
 
 
-.school-modal-wrapper {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.6);
-  z-index: 100;
-  display: none;
-  width: auto;
-}
+// .school-modal-wrapper {
+//   position: fixed;
+//   top: 0;
+//   right: 0;
+//   bottom: 0;
+//   left: 0;
+//   background-color: rgba(0, 0, 0, 0.6);
+//   z-index: 100;
+//   display: none;
+//   width: auto;
+// }
 
-.school-modal {
-  position: absolute;
-  top: 10%;
-  left: 5%;
-  background-color: #ffffff;
-  padding: 20px 0 40px;
-  border-radius: 10px;
-  width: auto;
-  height: auto;
-  text-align: center;
-}
-
-
-.school-modal-form {
-  padding: 20px;
-}
-
-label {
-  display: block;
-} 
-
-.school-form-control {
-  width: auto;
-  height: 50px;
-  border: solid 2px lime;
-}
-
-.school-modal-btn {
- color: lime;
- cursor: pointer;
- padding: 20px;
- border-radius: 10px;
-}
+// .school-modal {
+//   position: absolute;
+//   top: 10%;
+//   left: 5%;
+//   background-color: #ffffff;
+//   padding: 20px 0 40px;
+//   border-radius: 10px;
+//   width: auto;
+//   height: auto;
+//   text-align: center;
+// }
 
 
-.fa-times {
-  color: black;
-  cursor: pointer;
-}
+// .school-modal-form {
+//   padding: 20px;
+// }
 
-.school-close-modal {
-  margin-top: 10px;
-}
+// label {
+//   display: block;
+// } 
 
-@media (min-width: 670px) {
+// .school-form-control {
+//   width: auto;
+//   height: 50px;
+//   border: solid 2px lime;
+// }
 
-  .school-modal {
-    position: absolute;
-    top: 10%;
-    left: 5%;
-    background-color: #ffffff;
-    padding: 20px 0 40px;
-    border-radius: 10px;
-    width: 1000px;
-    height: 1000px;
-    text-align: center;
-  }
+// .school-modal-btn {
+//  color: lime;
+//  cursor: pointer;
+//  padding: 20px;
+//  border-radius: 10px;
+// }
+
+
+// .fa-times {
+//   color: black;
+//   cursor: pointer;
+// }
+
+// .school-close-modal {
+//   margin-top: 10px;
+// }
+
+// @media (min-width: 670px) {
+
+//   .school-modal {
+//     position: absolute;
+//     top: 10%;
+//     left: 5%;
+//     background-color: #ffffff;
+//     padding: 20px 0 40px;
+//     border-radius: 10px;
+//     width: 1000px;
+//     height: 1000px;
+//     text-align: center;
+//   }
   
-  .school-form-control {
-    width: 400px;
-    height: 50px;
-    border: solid 2px lime;
-  }
+//   .school-form-control {
+//     width: 400px;
+//     height: 50px;
+//     border: solid 2px lime;
+//   }
   
-  .school-modal-btn {
-    color: lime;
-    cursor: pointer;
-    padding: 30px 50px;
+//   .school-modal-btn {
+//     color: lime;
+//     cursor: pointer;
+//     padding: 30px 50px;
     
-   }
-  }
+//    }
+//   }

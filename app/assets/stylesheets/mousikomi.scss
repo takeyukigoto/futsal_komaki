@@ -1,5 +1,5 @@
-.contact-wrapper {
-  background-image: image-url("contact.jpg");
+.mousikomi-wrapper {
+  background-image: image-url("mousikomi.jpg");
   background-color:rgba(255,255,255,0.4);
   background-blend-mode:lighten;
   background-size:cover;
@@ -10,85 +10,77 @@
   letter-spacing: 0.2em;
 }
 
-.contact-form {
+.mousikomi-form {
   margin-top: 30px;
   width: 300px;
-  height: 600px;
+  height: 700px;
   margin: auto;
   padding-top: 30px;
 }
 
-.contact-text-form span {
-  color: red;
-}
-
-.contact-login-form {
+.mousikomi-login-form {
   background-color: #ffffff;
   width: auto;
-  height: auto;
+  height: 450px;
   margin: auto;
   border-radius: 10px;
 }
 
-.contact-text-form {
+.mousikomi-text-form {
   width: auto;
   height: auto;
   padding-top: 10px;
 }
 
-.contact-login-form p {
+.mousikomi-login-form p {
   font-size: 30px;
 }
 
-.contact-form-control {
-  border-radius: 10px;
+.mousikomi-login-form span {
+  color: red;
 }
 
-.contact-form-text {
+.mousikomi-form-control {
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+}
+
+.mousikomi-form-text {
   border-radius: 10px;
   height: 50px;
+  border: solid 2px;
 }
 
-
-
-.contact-form-sub {
+.mousikomi-form-sub {
   margin: 20px 20px;
   background-color: lime;
   border-radius: 10px;
 }
 
-// .contact-form-control:required{
-//   background: #FFE4E1;
-// }
-
-.contact-form-control:focus{
+.mousikomi-form-control:focus{
   background: #E0FFFF;
 }
 
-.contact-form-control:valid{
+.mousikomi-form-control:valid{
   background: transparent;
 }
 
 
 
-// .contact-form-text:required{
-//   background: #FFE4E1;
-// }
 
-.contact-form-text:focus{
+.mousikomi-form-text:focus{
   background: #E0FFFF;
 }
 
-.contact-form-text:valid{
+.mousikomi-form-text:valid{
   background: transparent;
 }
-
-
 
 
 @media (min-width: 670px) {
 
-  .contact-form {
+  .mousikomi-form {
     margin-top: 30px;
     width: 500px;
     height: 800px;
@@ -96,32 +88,32 @@
     padding-top: 30px;
   }
 
-  .contact-form-control {
+  .mousikomi-form-control {
     width: 400px;
     height: 40px;
   }
 
-  .contact-login-form {
+  .mousikomi-login-form {
     width: 600px;
-    height: 600px;
+    height: 700px;
   }
 
-  .contact-login-form p {
+  .mousikomi-login-form p {
     font-size: 40px;
   }
 
-  .contact-text-form {
+  .mousikomi-text-form {
     padding-top: 20px;
   }
 
-  .contact-form-text {
+  .mousikomi-form-text {
     width: 400px;
     height: 100px;
     border-radius: 10px;
     
   }
 
-  .contact-form-sub {
+  .mousikomi-form-sub {
     margin-top: 20px;
     padding: 20px 180px;
     background-color: lime;
@@ -129,29 +121,4 @@
   }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

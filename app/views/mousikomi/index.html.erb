@@ -1,0 +1,60 @@
+<header class="header">
+  <div class="header-innner">
+    <div class="header-logo">
+      <%= link_to "FUTSAL⚽️KOMAKI", root_path %>
+    </div>
+
+    <div class="header-contact">
+      <nav>
+        <ul>
+          <li><%= link_to "トップ", root_path %></li>
+          <li><%= link_to "施設について", guide_index_path %></li>
+          <li><%= link_to "お問い合わせ", contact_index_path %></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+<div class="mousikomi-wrapper">
+
+<div class="mousikomi-form">
+  <div class="mousikomi-login-form">
+        <p>申込フォーム<p>
+         <%= form_tag('/thank', method: :get) do %> 
+
+          <div class="mousikomi-text-form">
+            <label>お名前：<span>必須</span></label>
+            <input class="mousikomi-form-control" type="text" placeholder="例：山田　太郎" required autofocus>
+          </div>
+        
+         <div class="mousikomi-text-form">
+            <label>メールアドレス：<span>必須</span></label>
+            <input class="mousikomi-form-control" type="email" placeholder="例：aaaa@mail.gmai.com" required>
+          </div>
+
+          
+
+          <div class="mousikomi-text-form">
+            <label>日時、時間：<span>必須</span></label>
+            <input class="mousikomi-form-control" type="datetime-local" required autofocus>
+          </div>
+
+          <div class="mousikomi-text-form">
+            <label>ご質問内容：<span>必須</span></label>
+            <textarea class="mousikomi-form-text" type="textarea" placeholder="質問内容を入力してください" required autofocus></textarea>
+          </div>
+
+          <div class="mousikomi-form">
+            <input class="mousikomi-form-sub" type="submit">
+          </div>
+        <% end %>
+  </div>      
+</div>
+<div>
+</div>
+</div>
+
+<%= render partial: "layouts/footer" %>
+</div>
+
+     
