@@ -28,57 +28,51 @@
     <p>社会人になってから運動したいけど、できていない方にオススメです。ボールを扱っての運動になり、フットサル経験者出なくても、運動が楽しめます。<br>
     その他、各個人に合わせたイベントがありますので、あなたに合ったイベントで楽しんでください。<br>
  </div>
-<div class="s-mousikomi">
-  <div class="s-mousikomiform">
-    <p>school申込</p>
+
+<div class="school-click">
+  <%= link_to "個人参加申込", mousikomi_index_path, class: 'btn-scmousikomi' %>
+</div>
+
+<div class="s-mousikomiform">
+    
     <div class="schoolmousikomi">
       <a>
-      <button type="button" class="schoolmousikomi-btn" id="schoolmousikomi-modal">申込 click!</button>
+      <button type="button" class="schoolmousikomi-btn" id="schoolmousikomi-modal">お客様の声</button>
       </a>
   </div>
-  </div>
+  
 
 
-  <%# <div class="school-modal-wrapper" id="school-modal">
+  <div class="school-modal-wrapper" id="school-modal"> 
     <!-- ログインのモーダル部分のHTMLを貼り付けてください -->
     <div class="school-modal">
       <div id="school-login-form">
-        <h2>school申込</h2>
-        <form action="#">
-
-          <div class="school-modal-form">
-            <label>お名前：必須</label>
-            <input class="school-form-control" type="text" placeholder="入力してください">
-          </div>
-        
-         <div class="school-modal-form">
-            <label>メールアドレス：必須</label>
-            <input class="school-form-control" type="email" placeholder="入力してください">
-          </div>
-
-          <div class="school-modal-form">
-            <label>希望日：必須</label>
-            <input class="school-form-control" type="text" placeholder="入力してください">
-          </div>
-
-          <div class="school-modal-form">
-            <label>希望時間：必須</label>
-            <input class="school-form-control" type="text" placeholder="入力してください">
-          </div>
-
+        <h2>お客様の声</h2>
+      <div class="school-modal-inner">  
+        <p>自分自身は運動不足解消コースに、子供は上達コースで親子でやってます。<br>
+        (50代男性)
+        <p>子供を預けておける、ママ友ができる、子供も私も交流の場にもなっています。<br>(40代女性)
+        </p>
       </div>
+        
 
-        </form>
-         <div class="school-modal-sousin">
-          <button type="button" class="school-modal-btn" id="school-modal-btn">送信</button>
-         </div>
+
         <div class="school-close-modal">
         <i class="fa fa-2x fa-times"></i>
        </div>
             
       </div>
 
-  </div>     %>
+  </div>    
+</div>
+</div>
+<div> 
+
+
+ 
+
+
+  
 </div>
 </div>
 <div>
@@ -87,4 +81,4 @@
 </div>
 
 
-</div>
+

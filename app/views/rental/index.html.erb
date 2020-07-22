@@ -30,56 +30,56 @@
     また室内の為、女性には嬉しい紫外線を防ぐ事ができます。
     <br>
  </div>
-  <div class="re-mousikomi">
-  <div class="re-mousikomiform">
-    <p>レンタルコート申込</p>
-    <div class="rentalmousikomi">
-      <a>
-      <button type="button" class="rentalmousikomi-btn" id="rentalmousikomi-modal">申込 click!</button>
-      </a>
-  </div>
 
+
+ <div class="rental-click">
+  <%= link_to "個人参加申込", mousikomi_index_path, class: 'btn-remousikomi' %>
 </div>
 
-<%# <div class="rental-modal-wrapper" id="rental-modal">
-    <!-- ログインのモーダル部分のHTMLを貼り付けてください -->
+ 
+    
+
+
+
+
+
+
+ 
+  <div class="re-mousikomiform">
+    
+    <div class="rentalmousikomi">
+      <a>
+      <button type="button" class="rentalmousikomi-btn" id="rentalmousikomi-modal">お客様の声</button>
+      </a>
+  </div>
+  
+
+
+  <div class="rental-modal-wrapper" id="rental-modal"> 
+    
     <div class="rental-modal">
       <div id="rental-login-form">
-        <h2>レンタルコート申込</h2>
-        <form action="#">
-
-          <div class="rental-modal-form">
-            <label>お名前：必須</label>
-            <input class="rental-form-control" type="text" placeholder="入力してください">
-          </div>
-        
-         <div class="rental-modal-form">
-            <label>メールアドレス：必須</label>
-            <input class="rental-form-control" type="email" placeholder="入力してください">
-          </div>
-
-          <div class="rental-modal-form">
-            <label>希望日：必須</label>
-            <input class="rental-form-control" type="text" placeholder="入力してください">
-          </div>
-
-          <div class="rental-modal-form">
-            <label>希望時間：必須</label>
-            <input class="rental-form-control" type="text" placeholder="入力してください">
-          </div>
-
+        <h2>お客様の声</h2>
+      <div class="rental-modal-inner">  
+        <p>室内なので雨の心配せず、予定通りに開催できるのが嬉しいです。<br>
+        (30代男性)
+        <p>紫外線の心配をする必要がないので、安心して運動できるのが嬉しいです。<br>(20代女性)
+        </p>
       </div>
+        
 
-        </form>
-         <div class="rental-modal-sousin">
-          <button type="button" class="rental-modal-btn" id="rental-modal-btn">送信</button>
-         </div>
+
         <div class="rental-close-modal">
         <i class="fa fa-2x fa-times"></i>
        </div>
             
-      </div> %>
+      </div>
 
+  </div>    
+</div>
+</div>
+<div> 
+ 
   </div>    
 </div>
 </div>
