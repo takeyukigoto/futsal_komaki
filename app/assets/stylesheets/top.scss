@@ -82,8 +82,8 @@ font-family: "Comic Sans MS";
   display: none;
   background-image: image-url("main.jpg");
   background-size:cover;
-  background-position: center center;                              /* 画像のサイズを指定  */
-  width:100%;                                            /* 横幅のサイズを指定  */ 
+  background-position: center center;                      
+  width:100%;                                
   text-align: center;
   padding-bottom: 20px;
 }
@@ -95,7 +95,7 @@ font-family: "Comic Sans MS";
 }
 
 .main-container h1 {
-  font-size: 50px;
+  font-size: 30px;
   color: #000000	;
   background-color: rgba(63,191,108,0.3);
   padding-left: 10px;
@@ -108,7 +108,7 @@ font-family: "Comic Sans MS";
   color: #000000;
   background-color: rgba(63,191,108,0.3);
  text-decoration: none; 
- font-size: 30px;
+ font-size: 20px;
  font-weight: 800;
  padding-left: 10px;
  font-family: "Comic Sans MS";
@@ -147,9 +147,11 @@ font-family: "Comic Sans MS";
   }
   .main-container h1{
     text-align: left;
+    font-size: 50px;
   }
   .main-container p {
     text-align: left;
+    font-size: 40px;
   }
 
 }
