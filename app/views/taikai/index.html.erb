@@ -16,6 +16,8 @@
   </div>
 </header>
 
+
+
 <div class="t-main">
   <div class="t-contents">
    <span>大会とは</span><br>
@@ -29,65 +31,55 @@
     <span>学生の頃の青春を味わおう</span><br>
     <p>社会人になってからスポーツで、チーム皆での一体感、勝利をした、そんな体験がなくなってきてはいませんか？<br>
     レベルに合わせた大会に参加し、チームでの一体感、勝利、学生の頃のあの青春を味わいましょう。<br>
-   </div>
+  </div>
+
+
+
+
+
+<div class="taikai-click">
+  <%= link_to "大会参加申込", mousikomi_index_path, class: 'btn-tamousikomi' %>
+</div>
+
+
+
+
+<div class="t-mousikomiform">
+    
+    <div class="taikaimousikomi">
+      <a>
+      <button type="button" class="taikaimousikomi-btn" id="taikaimousikomi-modal">お客様の声</button>
+      </a>
+  </div>
   
 
 
-
-<div class="t-mousikomi">
-  <div class="t-mousikomiform">
-    <p>個人参加申込</p>
-    <div class="taikaimousikomi">
-      <a>
-      <button type="button" class="taikaimousikomi-btn" id="taikaimousikomi-modal">申込 click!</button>
-      </a>
-  </div>
-  </div>
-
-
-  <div class="taikai-modal-wrapper" id="taikai-modal">
+  <div class="taikai-modal-wrapper" id="taikai-modal"> 
     <!-- ログインのモーダル部分のHTMLを貼り付けてください -->
     <div class="taikai-modal">
       <div id="taikai-login-form">
-        <h2>個人参加申込</h2>
-        <form action="#">
-
-          <div class="takai-modal-form">
-            <label>お名前：必須</label>
-            <input class="taikai-form-control" type="text" placeholder="入力してください">
-          </div>
-        
-         <div class="taikai-modal-form">
-            <label>メールアドレス：必須</label>
-            <input class="taikai-form-control" type="email" placeholder="入力してください">
-          </div>
-
-          <div class="taikai-modal-form">
-            <label>希望日：必須</label>
-            <input class="taikai-form-control" type="text" placeholder="入力してください">
-          </div>
-
-          <div class="taikai-modal-form">
-            <label>希望時間：必須</label>
-            <input class="taikai-form-control" type="text" placeholder="入力してください">
-          </div>
-
+        <h2>お客様の声</h2>
+      <div class="taikai-modal-inner">  
+        <p>チームメイトで大会に参加する事で同じ目標、一体感を感じる事ができてます。<br>
+        (20代男性)
+        <p>試合中、試合の前後、学生時代のあの頃を思い出す事ができ、毎月参加してます。<br>(40代男性)
+        </p>
       </div>
+        
 
-        </form>
-         <div class="taikai-modal-sousin">
-          <button type="button" class="taikai-modal-btn" id="taikai-modal-btn">送信</button>
-         </div>
+        <div>
         <div class="taikai-close-modal">
         <i class="fa fa-2x fa-times"></i>
        </div>
-            
-      </div>
-
-  </div>    
+      </div>     
+ 
+</div>
+</div>
+</div>
 </div>
 </div>
 <div>
+ 
+ <%= render partial: "layouts/footer" %>
 
-<%= render partial: "layouts/footer" %>
 </div>

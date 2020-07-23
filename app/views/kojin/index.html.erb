@@ -22,7 +22,7 @@
       <span>個人参加とは</span><br>
       <p>１人でも試合に参加できるイベントです.<br>
       １人もしくは友人を御誘いの上、参加申込をして頂きます。<br>
-      9割り以上の方が１人で参加していただいております。施設がチーム分けなど運営をさせて頂きますので、どなたも安心して参加していただけます。<br>
+      9割以上の方が１人で参加していただいております。施設がチーム分けなど運営をさせて頂きますので、どなたも安心して参加していただけます。<br>
       </p>
       <br>
       <span>友人を作ろう</span><br>
@@ -31,55 +31,42 @@
       ここで知り合った人同士、フットサル以外のお付き合いをしている常連さんが多数います。<br>
   </div>
 
+<div class="kojin-click">
+  <%= link_to "個人参加申込", mousikomi_index_path, class: 'btn-komousikomi' %>
+</div>
+
  
+    
+
+
+
+
+
+
  
-
-
-
-  <div class="k-mousikomi">
   <div class="k-mousikomiform">
-    <p>個人参加申込</p>
+    
     <div class="kojinmousikomi">
       <a>
-      <button type="button" class="kojinmousikomi-btn" id="kojinmousikomi-modal">申込 click!</button>
+      <button type="button" class="kojinmousikomi-btn" id="kojinmousikomi-modal">お客様の声</button>
       </a>
   </div>
-  </div>
+  
 
 
-  <div class="kojin-modal-wrapper" id="kojin-modal">
-    <!-- ログインのモーダル部分のHTMLを貼り付けてください -->
+  <div class="kojin-modal-wrapper" id="kojin-modal"> 
     <div class="kojin-modal">
       <div id="kojin-login-form">
-        <h2>個人参加申込</h2>
-        <form action="#">
-
-          <div class="kojin-modal-form">
-            <label>お名前：必須</label>
-            <input class="kojin-form-control" type="text" placeholder="入力してください">
-          </div>
-        
-         <div class="kojin-modal-form">
-            <label>メールアドレス：必須</label>
-            <input class="kojin-form-control" type="email" placeholder="入力してください">
-          </div>
-
-          <div class="kojin-modal-form">
-            <label>希望日：必須</label>
-            <input class="kojin-form-control" type="text" placeholder="入力してください">
-          </div>
-
-          <div class="kojin-modal-form">
-            <label>希望時間：必須</label>
-            <input class="kojin-form-control" type="text" placeholder="入力してください">
-          </div>
-
+        <h2>お客様の声</h2>
+      <div class="kojin-modal-inner">  
+        <p>サッカー経験がなく運動の為始めましたが、とても楽しく運動でき、運動不足解消になってます。<br>
+        (30代男性)
+        <p>社会人になってから仕事関係だけの友達でしたが、個人参加を通じて友人ができ、フットサル以外でも親交ができました。<br>(40代男性)
+        </p>
       </div>
+        
 
-        </form>
-         <div class="kojin-modal-sousin">
-          <button type="button" class="kojin-modal-btn" id="kojin-modal-btn">送信</button>
-         </div>
+
         <div class="kojin-close-modal">
         <i class="fa fa-2x fa-times"></i>
        </div>
@@ -87,9 +74,15 @@
       </div>
 
   </div>    
-</div>
-</div>
-<div>
+  </div>
+ </div>
+<div> 
 
+  </div>
+ </div>
+</div>
+
+
+<div>
 <%= render partial: "layouts/footer" %>
 </div>

@@ -4,7 +4,8 @@
 
 body {
 	-webkit-text-size-adjust: none;
-	text-size-adjust: none;
+  text-size-adjust: none;
+  font-family: "Comic Sans MS";
 }
 
 body {
@@ -172,14 +173,25 @@ font-family: "Comic Sans MS";
   margin: auto;
 }
 
+.main-innner img:hover {
+  opacity: 0.7;
+}
+
+.main-innner p:hover {
+  opacity: 0.7;
+}
+
 .main-topic-left {
   margin-right: 20px;
 }
 
+
+
+
+
 .main-innner a {
   text-decoration: none;
   color: black;
-  font-family: "Comic Sans MS";
 }
 
 @media (min-width: 670px) {

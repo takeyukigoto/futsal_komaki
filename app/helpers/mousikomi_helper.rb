@@ -1,0 +1,2 @@
+module MousikomiHelper
+end
