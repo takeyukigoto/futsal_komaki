@@ -3,7 +3,7 @@
   background-color:rgba(255,255,255,0.6);
   background-blend-mode:lighten;
   background-size:cover;
-  background-position: center center;                              /* 画像のサイズを指定  */
+  background-position: center center;    
   width:100%; 
   text-align: center;
   font-family: "Comic Sans MS";
@@ -11,34 +11,24 @@
 }
 
 .re-contents {
-padding-top: 10px;
-color: black;
-max-width: 1200px;
-margin: 0 auto;
+ padding-top: 10px;
+ color: black;
+ max-width: 1200px;
+ margin: 0 auto;
 }
 
-
 .re-contents span{
-color: green;
-font-size: 30px;
-padding-left: 5px;
+ color: green;
+ font-size: 30px;
+ padding-left: 5px;
 }
 
 
 .re-contents p {
-padding-left: 10px;
-text-align: left;
-font-size: 20px;
+ padding-left: 10px;
+ text-align: left;
+ font-size: 20px;
 } 
-
-@media (min-width: 670px) {
-.re-main {
-  text-align: left;
-}
-.rental-click {
-  padding-left: 10px;
-}
-}
 
 .btn-remousikomi {
   text-decoration: none;
@@ -75,7 +65,6 @@ font-size: 20px;
   padding-bottom: 30px;
 }
 
-
 .rentalmousikomi-btn {
   text-decoration: none;
   font-weight: bold;
@@ -93,24 +82,15 @@ font-size: 20px;
   opacity: 0.8;
 }
 
-
 .rentalmousikomi-btn:hover {
  opacity: 0.8;
 }
-
 
 .rentalmousikomi-btn:active {
   box-shadow: none;
   position: relative;
   top: 5px;
 }
-
-
-
-
-
-
-
 
 
 .rental-modal-wrapper {
@@ -137,7 +117,6 @@ font-size: 20px;
   text-align: center;
 }
 
-
 .rental-modal-form {
   padding: 20px;
 }
@@ -151,7 +130,6 @@ font-size: 20px;
   padding-left: 10px;
 }
 
-
 .fa-times {
   color: black;
   cursor: pointer;
@@ -164,7 +142,12 @@ font-size: 20px;
 }
 
 @media (min-width: 670px) {
-
+  .re-main {
+    text-align: left;
+  }
+  .rental-click {
+    padding-left: 10px;
+  }
   .rental-modal {
     position: absolute;
     top: 10%;
@@ -176,6 +159,4 @@ font-size: 20px;
     height: auto;
     text-align: center;
   }
-  
-
-  }
+}
