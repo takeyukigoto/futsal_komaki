@@ -1,24 +1,21 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#アプリ概要
+###詳細説明 
+フットサル場の集客の後押しができる様な、ホームページを作成しました。
+なぜフットサルをやった方が良いのかの説明、  　
+見やすさ、分かりやすさを意識し作成しましたました。
+###address
+http://176.32.86.158/
+###機能
+・モーダル  
+・アコーディオン  
+・フェードイン  
+・Responsive Design、Media Queries  
+###使用技術
+###言語、ライブラリー
+・HTML  
+・CSS  
+・jQuery  
+・RAILS  
+### 環境
+・AWS EC2  
+・Capistrano 自動デプロ
