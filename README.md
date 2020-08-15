@@ -17,7 +17,7 @@ http://176.32.86.158/
 ・HTML  
 ・CSS  
 ・jQuery
-・Ruby  
+・Ruby    
 ・RAILS    
 ### 環境
 ・AWS EC2  
