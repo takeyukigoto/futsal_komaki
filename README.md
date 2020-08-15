@@ -16,7 +16,7 @@ http://176.32.86.158/
 ### 言語、ライブラリー
 ・HTML  
 ・CSS  
-・jQuery
+・jQuery  
 ・Ruby    
 ・RAILS    
 ### 環境
