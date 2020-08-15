@@ -9,8 +9,8 @@ jQueryで動きをつけ、Responsive Designで
 ### address  
 http://176.32.86.158/  
 ### 機能  
-・モーダル（各menu、お客様の声で実装）       
-・アコーディオン（施設についてで実装）      
+・モーダル（各menu、「お客様の声」で実装）       
+・アコーディオン（「施設について」で実装）      
 ・フェードイン（トップ画面で実装）      
 ・Responsive Design、Media Queries    
 ### 使用技術  
