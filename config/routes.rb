@@ -19,5 +19,5 @@ Rails.application.routes.draw do
 
   resources :thank, only: :index
 
-  resources :mousikomi, only: :index
+  resources :mousikomi, only: [:index, :new, :create]
 end
