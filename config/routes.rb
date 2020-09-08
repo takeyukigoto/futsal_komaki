@@ -20,4 +20,12 @@ Rails.application.routes.draw do
   resources :thank, only: :index
 
   resources :mousikomi, only: [:index, :new, :create]
+
+  resources :kojinmousikomi, only: [:index, :new, :create]
+
+  resources :taikaimousikomi, only: [:index, :new, :create]
+
+  resources :schoolmousikomi, only: [:index, :new, :create]
+
+  resources :rentalmousikomi, only: [:index, :new, :create]
 end

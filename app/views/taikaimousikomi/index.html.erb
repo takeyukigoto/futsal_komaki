@@ -1,0 +1,66 @@
+<header class="header">
+  <div class="header-innner">
+    <div class="header-logo">
+      <%= link_to "FUTSAL⚽️KOMAKI", root_path %>
+    </div>
+
+    <div class="header-contact">
+      <nav>
+        <ul>
+          <li><%= link_to "トップ", root_path %></li>
+          <li><%= link_to "施設について", guide_index_path %></li>
+          <li><%= link_to "お問い合わせ", contact_index_path %></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+<div class="mousikomi-wrapper">
+
+<div class="mousikomi-form">
+  <div class="mousikomi-login-form">
+        <p>申込フォーム<p>
+         <%= form_tag('/taikaimousikomi', method: :post) do %> 
+           <div class="mousikomi-text-form">
+            <label>お名前：<span>必須</span></label>
+            <input class="mousikomi-form-control" name="name" type="text" placeholder="例：山田　太郎" required autofocus>
+          </div>
+        
+         <div class="mousikomi-text-form">
+            <label>メールアドレス：<span>必須</span></label>
+            <input class="mousikomi-form-control" name="email" type="string" placeholder="例：aaaa@mail.gmai.com" required>
+          </div>
+
+          <div class="mousikomi-text-form">
+            <label>日にち：<span>必須</span></label>
+            <input class="mousikomi-form-control" name="date" type="date" required autofocus>
+          </div>
+
+          <div class="mousikomi-text-form">
+            <label>時間：<span>必須</span></label>
+            <select name="time" class="mousikomi-form-control"  name="time" required autofocus>
+            
+              <option value="15:00">15:00</option>
+              <option value="19:00">19:00</option>
+            </select>
+          </div>
+
+          <div class="mousikomi-text-form">
+            <label>質問内容</label>
+            <textarea class="mousikomi-form-text" name="text" type="textarea" placeholder="質問事項を記載してください。" ></textarea>
+          </div>
+
+          <input type="submit" value="投稿する" class="mousikomi-form-sub">
+        <% end %>
+   </div>      
+  </div>
+  <div>
+ </div>
+ </div>
+
+<%= render partial: "layouts/footer" %>
+</div>
+
+
+
+     

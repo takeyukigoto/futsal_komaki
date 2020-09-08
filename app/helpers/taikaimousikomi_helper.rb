@@ -1,0 +1,2 @@
+module TaikaimousikomiHelper
+end

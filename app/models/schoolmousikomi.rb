@@ -1,0 +1,2 @@
+class Schoolmousikomi < ApplicationRecord
+end
