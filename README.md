@@ -20,7 +20,8 @@ http://176.32.86.158/
 ・CSS  
 ・jQuery  
 ・Ruby    
-・RAILS    
+・RAILS 
+・MYSQL  
 ### 環境
 ・AWS EC2  
 ・Capistrano 自動デプロ
