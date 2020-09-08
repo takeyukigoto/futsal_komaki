@@ -1,0 +1,2 @@
+class Mousikomi < ApplicationRecord
+end
