@@ -29,3 +29,5 @@ Rails.application.routes.draw do
 
   resources :rentalmousikomi, only: [:index, :new, :create]
 end
+
+
