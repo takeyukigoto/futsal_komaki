@@ -13,6 +13,6 @@ class MousikomiController < ApplicationController
 
   private
   def mousikomi_params
-    params.permit(:content)
+    params.permit(:name, :email, :date, :time, :text)
   end
 end

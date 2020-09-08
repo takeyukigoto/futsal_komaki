@@ -13,7 +13,11 @@
 ActiveRecord::Schema.define(version: 2020_09_06_014044) do
 
   create_table "mousikomis", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
-    t.text "content"
+    t.text "name", null: false
+    t.string "email", null: false
+    t.date "date", null: false
+    t.time "time", null: false
+    t.text "text", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
