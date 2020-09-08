@@ -1,0 +1,2 @@
+class Kojinmousikomi < ApplicationRecord
+end

@@ -1,0 +1,37 @@
+<header class="header">
+  <div class="header-innner">
+    <div class="header-logo">
+      <%= link_to "FUTSAL⚽️KOMAKI", root_path %>
+    </div>
+
+    <div class="header-contact">
+      <nav>
+        <ul>
+          <li><%= link_to "トップ", root_path %></li>
+          <li><%= link_to "施設について", guide_index_path %></li>
+          <li><%= link_to "お問い合わせ", contact_index_path %></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+
+
+<div class="thank-main">
+
+  <div class="thank-comment">
+   <h1>送信ありがとうございます</h1>
+   <p>詳細は送信して頂いたメールにお送りさせて頂きます！<p>
+   <p class="thank-enjoy">LET'S ENJOY FUTSAL ⚽️</p>
+
+  </div>
+
+
+</div>
+</div>
+
+<div>
+
+<%= render partial: "layouts/footer" %>
+</div>

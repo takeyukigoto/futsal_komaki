@@ -1,0 +1,2 @@
+class Rentalmousikomi < ApplicationRecord
+end

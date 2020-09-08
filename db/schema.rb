@@ -10,7 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_09_06_014044) do
+ActiveRecord::Schema.define(version: 2020_09_08_024206) do
+
+  create_table "kojinmousikomis", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.text "name", null: false
+    t.string "email", null: false
+    t.date "date", null: false
+    t.time "time", null: false
+    t.text "text"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "mousikomis", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.text "name", null: false
@@ -18,6 +28,36 @@ ActiveRecord::Schema.define(version: 2020_09_06_014044) do
     t.date "date", null: false
     t.time "time", null: false
     t.text "text", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "rentalmousikomis", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.text "name", null: false
+    t.string "email", null: false
+    t.date "date", null: false
+    t.time "time", null: false
+    t.text "text"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "schoolmousikomis", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.text "name", null: false
+    t.string "email", null: false
+    t.date "date", null: false
+    t.time "time", null: false
+    t.text "text"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "taikaimousikomis", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.text "name", null: false
+    t.string "email", null: false
+    t.date "date", null: false
+    t.time "time", null: false
+    t.text "text"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

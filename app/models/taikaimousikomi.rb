@@ -1,0 +1,2 @@
+class Taikaimousikomi < ApplicationRecord
+end
