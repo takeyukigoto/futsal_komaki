@@ -21,16 +21,16 @@
     <div class="contact-form">
       <div class="contact-login-form">
         <p>お問い合わせ<p>
-         <%= form_tag('/thank', method: :get) do %> 
+         <%= form_tag('/contact', method: :post) do %> 
 
           <div class="contact-text-form">
             <label>お名前：<span>必須</span></label>
-            <input class="contact-form-control" type="text" placeholder="例：山田　太郎" required autofocus>
+            <input class="contact-form-control" name="name" type="text" placeholder="例：山田　太郎" required autofocus>
           </div>
         
          <div class="contact-text-form">
             <label>メールアドレス：<span>必須</span></label>
-            <input class="contact-form-control" type="email" placeholder="例：aaaa@mail.gmai.com" required>
+            <input class="contact-form-control" name="email" type="string" placeholder="例：aaaa@mail.gmai.com" required>
           </div>
 
           <div class="contact-text-form">
@@ -39,7 +39,7 @@
           </div>
 
           <div class="contactbtn-form">
-            <input class="contact-form-sub" type="submit">
+            <input class="contact-form-sub" name="text" type="submit">
           </div>
         <% end %>
       </div>

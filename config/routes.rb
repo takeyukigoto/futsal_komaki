@@ -13,7 +13,7 @@ Rails.application.routes.draw do
 
   resources :rental, only: :index
 
-  resources :contact, only: :index
+  resources :contact, only: [:index, :new, :create]
 
   resources :mokojin, only: :index
 
